@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3043C8144C61F8FCEC5D068C /* libPods-typewriter-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF62541696F8B4A29A0BF47 /* libPods-typewriter-ObjC.a */; };
+		DCAA51A020039EE90025E498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA519F20039EE90025E498 /* AppDelegate.m */; };
+		DCAA51A320039EE90025E498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51A220039EE90025E498 /* ViewController.m */; };
+		DCAA51A620039EE90025E498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAA51A420039EE90025E498 /* Main.storyboard */; };
+		DCAA51A820039EE90025E498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAA51A720039EE90025E498 /* Assets.xcassets */; };
+		DCAA51AB20039EE90025E498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAA51A920039EE90025E498 /* LaunchScreen.storyboard */; };
+		DCAA51AE20039EE90025E498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51AD20039EE90025E498 /* main.m */; };
+		DCAA51F72003B0630025E498 /* AppModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51C620039F6F0025E498 /* AppModel.h */; };
+		DCAA51F82003B0630025E498 /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51C720039F6F0025E498 /* AppModel.m */; };
+		DCAA51F92003B0630025E498 /* ClothesModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51C820039F6F0025E498 /* ClothesModel.h */; };
+		DCAA51FA2003B0630025E498 /* ClothesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51C920039F6F0025E498 /* ClothesModel.m */; };
+		DCAA51FB2003B0630025E498 /* ConstantDecl.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51CA20039F6F0025E498 /* ConstantDecl.h */; };
+		DCAA51FC2003B0630025E498 /* HeadPhoneModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51CB20039F6F0025E498 /* HeadPhoneModel.h */; };
+		DCAA51FD2003B0630025E498 /* HeadPhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51CC20039F6F0025E498 /* HeadPhoneModel.m */; };
+		DCAA51FE2003B0630025E498 /* HouseModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51CD20039F6F0025E498 /* HouseModel.h */; };
+		DCAA51FF2003B0630025E498 /* HouseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51CE20039F6F0025E498 /* HouseModel.m */; };
+		DCAA52002003B0630025E498 /* PetModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51CF20039F6F0025E498 /* PetModel.h */; };
+		DCAA52012003B0630025E498 /* PetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D020039F6F0025E498 /* PetModel.m */; };
+		DCAA52022003B0630025E498 /* PhoneModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D120039F6F0025E498 /* PhoneModel.h */; };
+		DCAA52032003B0630025E498 /* PhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D220039F6F0025E498 /* PhoneModel.m */; };
+		DCAA52042003B0630025E498 /* TypewriterBaseModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D320039F6F0025E498 /* TypewriterBaseModel.h */; };
+		DCAA52052003B0630025E498 /* TypewriterBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D420039F6F0025E498 /* TypewriterBaseModel.m */; };
+		DCAA52062003B0630025E498 /* TypewriterModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D520039F6F0025E498 /* TypewriterModel.h */; };
+		DCAA52072003B0630025E498 /* UserModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D620039F6F0025E498 /* UserModel.h */; };
+		DCAA52082003B0630025E498 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D720039F6F0025E498 /* UserModel.m */; };
+		DCAA52092003B0630025E498 /* WirelessChargingModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D820039F6F0025E498 /* WirelessChargingModel.h */; };
+		DCAA520A2003B0630025E498 /* WirelessChargingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51D920039F6F0025E498 /* WirelessChargingModel.m */; };
+		DCAA520B2003B0630025E498 /* ClothesPbModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51E72003A3600025E498 /* ClothesPbModel.h */; };
+		DCAA520C2003B0630025E498 /* ClothesPbModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51EE2003A3610025E498 /* ClothesPbModel.m */; };
+		DCAA520D2003B0630025E498 /* HousePbModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51E82003A3600025E498 /* HousePbModel.h */; };
+		DCAA520E2003B0630025E498 /* HousePbModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51E92003A3600025E498 /* HousePbModel.m */; };
+		DCAA520F2003B0630025E498 /* PetPbModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51EC2003A3610025E498 /* PetPbModel.h */; };
+		DCAA52102003B0630025E498 /* PetPbModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51ED2003A3610025E498 /* PetPbModel.m */; };
+		DCAA52112003B0630025E498 /* UserPbModel.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51EA2003A3600025E498 /* UserPbModel.h */; };
+		DCAA52122003B0630025E498 /* UserPbModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51EB2003A3600025E498 /* UserPbModel.m */; };
+		DCAA52132003B0730025E498 /* ClothesPb.pbobjc.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51DB20039F6F0025E498 /* ClothesPb.pbobjc.h */; };
+		DCAA52142003B0730025E498 /* ClothesPb.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51DC20039F6F0025E498 /* ClothesPb.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DCAA52152003B0730025E498 /* HousePb.pbobjc.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51DE20039F6F0025E498 /* HousePb.pbobjc.h */; };
+		DCAA52162003B0730025E498 /* HousePb.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51DF20039F6F0025E498 /* HousePb.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DCAA52172003B0730025E498 /* PetPb.pbobjc.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51E120039F6F0025E498 /* PetPb.pbobjc.h */; };
+		DCAA52182003B0730025E498 /* PetPb.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51E220039F6F0025E498 /* PetPb.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DCAA52192003B0730025E498 /* UserPb.pbobjc.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51E420039F6F0025E498 /* UserPb.pbobjc.h */; };
+		DCAA521A2003B0730025E498 /* UserPb.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51E520039F6F0025E498 /* UserPb.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DCAA521B2003B0820025E498 /* ClothesProto.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51B620039F6F0025E498 /* ClothesProto.h */; };
+		DCAA521C2003B0820025E498 /* ClothesProto.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51B720039F6F0025E498 /* ClothesProto.m */; };
+		DCAA521D2003B0820025E498 /* HouseProto.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51B920039F6F0025E498 /* HouseProto.h */; };
+		DCAA521E2003B0820025E498 /* HouseProto.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51BA20039F6F0025E498 /* HouseProto.m */; };
+		DCAA521F2003B0820025E498 /* PetProto.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51BB20039F6F0025E498 /* PetProto.h */; };
+		DCAA52202003B0820025E498 /* PetProto.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51BC20039F6F0025E498 /* PetProto.m */; };
+		DCAA52212003B0820025E498 /* UserProto.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51BE20039F6F0025E498 /* UserProto.h */; };
+		DCAA52222003B0820025E498 /* UserProto.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51BF20039F6F0025E498 /* UserProto.m */; };
+		DCAA52232003B08C0025E498 /* Test.h in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51C220039F6F0025E498 /* Test.h */; };
+		DCAA52242003B08C0025E498 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA51C420039F6F0025E498 /* Test.m */; };
+		DCAA52252003B0960025E498 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = DCAA51C320039F6F0025E498 /* test.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BF62541696F8B4A29A0BF47 /* libPods-typewriter-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-typewriter-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21016AB8B390D3121A4396D2 /* Pods-typewriter-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-typewriter-ObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-typewriter-ObjC/Pods-typewriter-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		3429E1AC0160E40190881CE0 /* Pods-typewriter-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-typewriter-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-typewriter-ObjC/Pods-typewriter-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		DCAA519B20039EE90025E498 /* typewriter-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "typewriter-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAA519E20039EE90025E498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCAA519F20039EE90025E498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCAA51A120039EE90025E498 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCAA51A220039EE90025E498 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCAA51A520039EE90025E498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAA51A720039EE90025E498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCAA51AA20039EE90025E498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCAA51AC20039EE90025E498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAA51AD20039EE90025E498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCAA51B520039F6F0025E498 /* AppModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AppModel.json; sourceTree = "<group>"; };
+		DCAA51B620039F6F0025E498 /* ClothesProto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothesProto.h; sourceTree = "<group>"; };
+		DCAA51B720039F6F0025E498 /* ClothesProto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothesProto.m; sourceTree = "<group>"; };
+		DCAA51B820039F6F0025E498 /* HeadPhoneModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HeadPhoneModel.json; sourceTree = "<group>"; };
+		DCAA51B920039F6F0025E498 /* HouseProto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseProto.h; sourceTree = "<group>"; };
+		DCAA51BA20039F6F0025E498 /* HouseProto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseProto.m; sourceTree = "<group>"; };
+		DCAA51BB20039F6F0025E498 /* PetProto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetProto.h; sourceTree = "<group>"; };
+		DCAA51BC20039F6F0025E498 /* PetProto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetProto.m; sourceTree = "<group>"; };
+		DCAA51BD20039F6F0025E498 /* PhoneModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PhoneModel.json; sourceTree = "<group>"; };
+		DCAA51BE20039F6F0025E498 /* UserProto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProto.h; sourceTree = "<group>"; };
+		DCAA51BF20039F6F0025E498 /* UserProto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProto.m; sourceTree = "<group>"; };
+		DCAA51C020039F6F0025E498 /* WirelessChargingModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WirelessChargingModel.json; sourceTree = "<group>"; };
+		DCAA51C220039F6F0025E498 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		DCAA51C320039F6F0025E498 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		DCAA51C420039F6F0025E498 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		DCAA51C620039F6F0025E498 /* AppModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		DCAA51C720039F6F0025E498 /* AppModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
+		DCAA51C820039F6F0025E498 /* ClothesModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothesModel.h; sourceTree = "<group>"; };
+		DCAA51C920039F6F0025E498 /* ClothesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothesModel.m; sourceTree = "<group>"; };
+		DCAA51CA20039F6F0025E498 /* ConstantDecl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantDecl.h; sourceTree = "<group>"; };
+		DCAA51CB20039F6F0025E498 /* HeadPhoneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadPhoneModel.h; sourceTree = "<group>"; };
+		DCAA51CC20039F6F0025E498 /* HeadPhoneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadPhoneModel.m; sourceTree = "<group>"; };
+		DCAA51CD20039F6F0025E498 /* HouseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseModel.h; sourceTree = "<group>"; };
+		DCAA51CE20039F6F0025E498 /* HouseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseModel.m; sourceTree = "<group>"; };
+		DCAA51CF20039F6F0025E498 /* PetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetModel.h; sourceTree = "<group>"; };
+		DCAA51D020039F6F0025E498 /* PetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetModel.m; sourceTree = "<group>"; };
+		DCAA51D120039F6F0025E498 /* PhoneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneModel.h; sourceTree = "<group>"; };
+		DCAA51D220039F6F0025E498 /* PhoneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneModel.m; sourceTree = "<group>"; };
+		DCAA51D320039F6F0025E498 /* TypewriterBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypewriterBaseModel.h; sourceTree = "<group>"; };
+		DCAA51D420039F6F0025E498 /* TypewriterBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypewriterBaseModel.m; sourceTree = "<group>"; };
+		DCAA51D520039F6F0025E498 /* TypewriterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypewriterModel.h; sourceTree = "<group>"; };
+		DCAA51D620039F6F0025E498 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		DCAA51D720039F6F0025E498 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		DCAA51D820039F6F0025E498 /* WirelessChargingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WirelessChargingModel.h; sourceTree = "<group>"; };
+		DCAA51D920039F6F0025E498 /* WirelessChargingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WirelessChargingModel.m; sourceTree = "<group>"; };
+		DCAA51DB20039F6F0025E498 /* ClothesPb.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothesPb.pbobjc.h; sourceTree = "<group>"; };
+		DCAA51DC20039F6F0025E498 /* ClothesPb.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothesPb.pbobjc.m; sourceTree = "<group>"; };
+		DCAA51DD20039F6F0025E498 /* ClothesPb.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = ClothesPb.proto; sourceTree = "<group>"; };
+		DCAA51DE20039F6F0025E498 /* HousePb.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HousePb.pbobjc.h; sourceTree = "<group>"; };
+		DCAA51DF20039F6F0025E498 /* HousePb.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HousePb.pbobjc.m; sourceTree = "<group>"; };
+		DCAA51E020039F6F0025E498 /* HousePb.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = HousePb.proto; sourceTree = "<group>"; };
+		DCAA51E120039F6F0025E498 /* PetPb.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetPb.pbobjc.h; sourceTree = "<group>"; };
+		DCAA51E220039F6F0025E498 /* PetPb.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetPb.pbobjc.m; sourceTree = "<group>"; };
+		DCAA51E320039F6F0025E498 /* PetPb.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = PetPb.proto; sourceTree = "<group>"; };
+		DCAA51E420039F6F0025E498 /* UserPb.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPb.pbobjc.h; sourceTree = "<group>"; };
+		DCAA51E520039F6F0025E498 /* UserPb.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPb.pbobjc.m; sourceTree = "<group>"; };
+		DCAA51E620039F6F0025E498 /* UserPb.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserPb.proto; sourceTree = "<group>"; };
+		DCAA51E72003A3600025E498 /* ClothesPbModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothesPbModel.h; sourceTree = "<group>"; };
+		DCAA51E82003A3600025E498 /* HousePbModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HousePbModel.h; sourceTree = "<group>"; };
+		DCAA51E92003A3600025E498 /* HousePbModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HousePbModel.m; sourceTree = "<group>"; };
+		DCAA51EA2003A3600025E498 /* UserPbModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPbModel.h; sourceTree = "<group>"; };
+		DCAA51EB2003A3600025E498 /* UserPbModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPbModel.m; sourceTree = "<group>"; };
+		DCAA51EC2003A3610025E498 /* PetPbModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetPbModel.h; sourceTree = "<group>"; };
+		DCAA51ED2003A3610025E498 /* PetPbModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetPbModel.m; sourceTree = "<group>"; };
+		DCAA51EE2003A3610025E498 /* ClothesPbModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothesPbModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAA519820039EE90025E498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3043C8144C61F8FCEC5D068C /* libPods-typewriter-ObjC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E0A89460E72946B20425B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3429E1AC0160E40190881CE0 /* Pods-typewriter-ObjC.debug.xcconfig */,
+				21016AB8B390D3121A4396D2 /* Pods-typewriter-ObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1D20E4EB3E0F666A9A8CB3F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BF62541696F8B4A29A0BF47 /* libPods-typewriter-ObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCAA519220039EE90025E498 = {
+			isa = PBXGroup;
+			children = (
+				DCAA519D20039EE90025E498 /* typewriter-ObjC */,
+				DCAA519C20039EE90025E498 /* Products */,
+				12E0A89460E72946B20425B5 /* Pods */,
+				1D20E4EB3E0F666A9A8CB3F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAA519C20039EE90025E498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA519B20039EE90025E498 /* typewriter-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAA519D20039EE90025E498 /* typewriter-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA51C520039F6F0025E498 /* model */,
+				DCAA51DA20039F6F0025E498 /* protocolBuffer */,
+				DCAA51B420039F6F0025E498 /* prototype */,
+				DCAA51C120039F6F0025E498 /* test */,
+				DCAA519E20039EE90025E498 /* AppDelegate.h */,
+				DCAA519F20039EE90025E498 /* AppDelegate.m */,
+				DCAA51A120039EE90025E498 /* ViewController.h */,
+				DCAA51A220039EE90025E498 /* ViewController.m */,
+				DCAA51A420039EE90025E498 /* Main.storyboard */,
+				DCAA51A720039EE90025E498 /* Assets.xcassets */,
+				DCAA51A920039EE90025E498 /* LaunchScreen.storyboard */,
+				DCAA51AC20039EE90025E498 /* Info.plist */,
+				DCAA51AD20039EE90025E498 /* main.m */,
+			);
+			path = "typewriter-ObjC";
+			sourceTree = "<group>";
+		};
+		DCAA51B420039F6F0025E498 /* prototype */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA51B520039F6F0025E498 /* AppModel.json */,
+				DCAA51B620039F6F0025E498 /* ClothesProto.h */,
+				DCAA51B720039F6F0025E498 /* ClothesProto.m */,
+				DCAA51B820039F6F0025E498 /* HeadPhoneModel.json */,
+				DCAA51B920039F6F0025E498 /* HouseProto.h */,
+				DCAA51BA20039F6F0025E498 /* HouseProto.m */,
+				DCAA51BB20039F6F0025E498 /* PetProto.h */,
+				DCAA51BC20039F6F0025E498 /* PetProto.m */,
+				DCAA51BD20039F6F0025E498 /* PhoneModel.json */,
+				DCAA51BE20039F6F0025E498 /* UserProto.h */,
+				DCAA51BF20039F6F0025E498 /* UserProto.m */,
+				DCAA51C020039F6F0025E498 /* WirelessChargingModel.json */,
+			);
+			path = prototype;
+			sourceTree = "<group>";
+		};
+		DCAA51C120039F6F0025E498 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA51C220039F6F0025E498 /* Test.h */,
+				DCAA51C320039F6F0025E498 /* test.json */,
+				DCAA51C420039F6F0025E498 /* Test.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		DCAA51C520039F6F0025E498 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA51C620039F6F0025E498 /* AppModel.h */,
+				DCAA51C720039F6F0025E498 /* AppModel.m */,
+				DCAA51C820039F6F0025E498 /* ClothesModel.h */,
+				DCAA51C920039F6F0025E498 /* ClothesModel.m */,
+				DCAA51CA20039F6F0025E498 /* ConstantDecl.h */,
+				DCAA51CB20039F6F0025E498 /* HeadPhoneModel.h */,
+				DCAA51CC20039F6F0025E498 /* HeadPhoneModel.m */,
+				DCAA51CD20039F6F0025E498 /* HouseModel.h */,
+				DCAA51CE20039F6F0025E498 /* HouseModel.m */,
+				DCAA51CF20039F6F0025E498 /* PetModel.h */,
+				DCAA51D020039F6F0025E498 /* PetModel.m */,
+				DCAA51D120039F6F0025E498 /* PhoneModel.h */,
+				DCAA51D220039F6F0025E498 /* PhoneModel.m */,
+				DCAA51D320039F6F0025E498 /* TypewriterBaseModel.h */,
+				DCAA51D420039F6F0025E498 /* TypewriterBaseModel.m */,
+				DCAA51D520039F6F0025E498 /* TypewriterModel.h */,
+				DCAA51D620039F6F0025E498 /* UserModel.h */,
+				DCAA51D720039F6F0025E498 /* UserModel.m */,
+				DCAA51D820039F6F0025E498 /* WirelessChargingModel.h */,
+				DCAA51D920039F6F0025E498 /* WirelessChargingModel.m */,
+				DCAA51E72003A3600025E498 /* ClothesPbModel.h */,
+				DCAA51EE2003A3610025E498 /* ClothesPbModel.m */,
+				DCAA51E82003A3600025E498 /* HousePbModel.h */,
+				DCAA51E92003A3600025E498 /* HousePbModel.m */,
+				DCAA51EC2003A3610025E498 /* PetPbModel.h */,
+				DCAA51ED2003A3610025E498 /* PetPbModel.m */,
+				DCAA51EA2003A3600025E498 /* UserPbModel.h */,
+				DCAA51EB2003A3600025E498 /* UserPbModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DCAA51DA20039F6F0025E498 /* protocolBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA51DB20039F6F0025E498 /* ClothesPb.pbobjc.h */,
+				DCAA51DC20039F6F0025E498 /* ClothesPb.pbobjc.m */,
+				DCAA51DD20039F6F0025E498 /* ClothesPb.proto */,
+				DCAA51DE20039F6F0025E498 /* HousePb.pbobjc.h */,
+				DCAA51DF20039F6F0025E498 /* HousePb.pbobjc.m */,
+				DCAA51E020039F6F0025E498 /* HousePb.proto */,
+				DCAA51E120039F6F0025E498 /* PetPb.pbobjc.h */,
+				DCAA51E220039F6F0025E498 /* PetPb.pbobjc.m */,
+				DCAA51E320039F6F0025E498 /* PetPb.proto */,
+				DCAA51E420039F6F0025E498 /* UserPb.pbobjc.h */,
+				DCAA51E520039F6F0025E498 /* UserPb.pbobjc.m */,
+				DCAA51E620039F6F0025E498 /* UserPb.proto */,
+			);
+			path = protocolBuffer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAA519A20039EE90025E498 /* typewriter-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAA51B120039EE90025E498 /* Build configuration list for PBXNativeTarget "typewriter-ObjC" */;
+			buildPhases = (
+				FEAF34C29C961D96F9858B39 /* [CP] Check Pods Manifest.lock */,
+				DCAA519720039EE90025E498 /* Sources */,
+				DCAA519820039EE90025E498 /* Frameworks */,
+				DCAA519920039EE90025E498 /* Resources */,
+				9A14E91C17C12B36724C6640 /* [CP] Embed Pods Frameworks */,
+				AB006CFE416EF246874E54EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "typewriter-ObjC";
+			productName = "typewriter-ObjC";
+			productReference = DCAA519B20039EE90025E498 /* typewriter-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAA519320039EE90025E498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = typewriter;
+				TargetAttributes = {
+					DCAA519A20039EE90025E498 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCAA519620039EE90025E498 /* Build configuration list for PBXProject "typewriter-ObjC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAA519220039EE90025E498;
+			productRefGroup = DCAA519C20039EE90025E498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAA519A20039EE90025E498 /* typewriter-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAA519920039EE90025E498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAA51AB20039EE90025E498 /* LaunchScreen.storyboard in Resources */,
+				DCAA51A820039EE90025E498 /* Assets.xcassets in Resources */,
+				DCAA51A620039EE90025E498 /* Main.storyboard in Resources */,
+				DCAA52252003B0960025E498 /* test.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A14E91C17C12B36724C6640 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-typewriter-ObjC/Pods-typewriter-ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB006CFE416EF246874E54EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-typewriter-ObjC/Pods-typewriter-ObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAF34C29C961D96F9858B39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAA519720039EE90025E498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAA51A320039EE90025E498 /* ViewController.m in Sources */,
+				DCAA51AE20039EE90025E498 /* main.m in Sources */,
+				DCAA51A020039EE90025E498 /* AppDelegate.m in Sources */,
+				DCAA51F72003B0630025E498 /* AppModel.h in Sources */,
+				DCAA51F82003B0630025E498 /* AppModel.m in Sources */,
+				DCAA51F92003B0630025E498 /* ClothesModel.h in Sources */,
+				DCAA51FA2003B0630025E498 /* ClothesModel.m in Sources */,
+				DCAA51FB2003B0630025E498 /* ConstantDecl.h in Sources */,
+				DCAA51FC2003B0630025E498 /* HeadPhoneModel.h in Sources */,
+				DCAA51FD2003B0630025E498 /* HeadPhoneModel.m in Sources */,
+				DCAA51FE2003B0630025E498 /* HouseModel.h in Sources */,
+				DCAA51FF2003B0630025E498 /* HouseModel.m in Sources */,
+				DCAA52002003B0630025E498 /* PetModel.h in Sources */,
+				DCAA52012003B0630025E498 /* PetModel.m in Sources */,
+				DCAA52022003B0630025E498 /* PhoneModel.h in Sources */,
+				DCAA52032003B0630025E498 /* PhoneModel.m in Sources */,
+				DCAA52042003B0630025E498 /* TypewriterBaseModel.h in Sources */,
+				DCAA52052003B0630025E498 /* TypewriterBaseModel.m in Sources */,
+				DCAA52062003B0630025E498 /* TypewriterModel.h in Sources */,
+				DCAA52072003B0630025E498 /* UserModel.h in Sources */,
+				DCAA52082003B0630025E498 /* UserModel.m in Sources */,
+				DCAA52092003B0630025E498 /* WirelessChargingModel.h in Sources */,
+				DCAA520A2003B0630025E498 /* WirelessChargingModel.m in Sources */,
+				DCAA520B2003B0630025E498 /* ClothesPbModel.h in Sources */,
+				DCAA520C2003B0630025E498 /* ClothesPbModel.m in Sources */,
+				DCAA520D2003B0630025E498 /* HousePbModel.h in Sources */,
+				DCAA520E2003B0630025E498 /* HousePbModel.m in Sources */,
+				DCAA520F2003B0630025E498 /* PetPbModel.h in Sources */,
+				DCAA52102003B0630025E498 /* PetPbModel.m in Sources */,
+				DCAA52112003B0630025E498 /* UserPbModel.h in Sources */,
+				DCAA52122003B0630025E498 /* UserPbModel.m in Sources */,
+				DCAA52132003B0730025E498 /* ClothesPb.pbobjc.h in Sources */,
+				DCAA52142003B0730025E498 /* ClothesPb.pbobjc.m in Sources */,
+				DCAA52152003B0730025E498 /* HousePb.pbobjc.h in Sources */,
+				DCAA52162003B0730025E498 /* HousePb.pbobjc.m in Sources */,
+				DCAA52172003B0730025E498 /* PetPb.pbobjc.h in Sources */,
+				DCAA52182003B0730025E498 /* PetPb.pbobjc.m in Sources */,
+				DCAA52192003B0730025E498 /* UserPb.pbobjc.h in Sources */,
+				DCAA521A2003B0730025E498 /* UserPb.pbobjc.m in Sources */,
+				DCAA521B2003B0820025E498 /* ClothesProto.h in Sources */,
+				DCAA521C2003B0820025E498 /* ClothesProto.m in Sources */,
+				DCAA521D2003B0820025E498 /* HouseProto.h in Sources */,
+				DCAA521E2003B0820025E498 /* HouseProto.m in Sources */,
+				DCAA521F2003B0820025E498 /* PetProto.h in Sources */,
+				DCAA52202003B0820025E498 /* PetProto.m in Sources */,
+				DCAA52212003B0820025E498 /* UserProto.h in Sources */,
+				DCAA52222003B0820025E498 /* UserProto.m in Sources */,
+				DCAA52232003B08C0025E498 /* Test.h in Sources */,
+				DCAA52242003B08C0025E498 /* Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCAA51A420039EE90025E498 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAA51A520039EE90025E498 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAA51A920039EE90025E498 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAA51AA20039EE90025E498 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAA51AF20039EE90025E498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCAA51B020039EE90025E498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAA51B220039EE90025E498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3429E1AC0160E40190881CE0 /* Pods-typewriter-ObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "typewriter-ObjC-PrefixHeader.pch";
+				INFOPLIST_FILE = "typewriter-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typewriter.typewriter-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCAA51B320039EE90025E498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21016AB8B390D3121A4396D2 /* Pods-typewriter-ObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "typewriter-ObjC-PrefixHeader.pch";
+				INFOPLIST_FILE = "typewriter-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typewriter.typewriter-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAA519620039EE90025E498 /* Build configuration list for PBXProject "typewriter-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAA51AF20039EE90025E498 /* Debug */,
+				DCAA51B020039EE90025E498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAA51B120039EE90025E498 /* Build configuration list for PBXNativeTarget "typewriter-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAA51B220039EE90025E498 /* Debug */,
+				DCAA51B320039EE90025E498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCAA519320039EE90025E498 /* Project object */;
+}

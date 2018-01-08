@@ -1,0 +1,14 @@
+{
+    "generate" : "AppModel",
+    "inherit" : "TypewriterBaseModel",
+    "implement" : ["NSObject"],
+    "options" : ["initializerPreprocess"],
+    "memberVariable" : {
+        "producer" : {
+            "type" : "String",
+            "rewrittenName" : "company",
+            "nullable" : "optional"
+        },
+        "type" : {"type" : "String"}
+    }
+}

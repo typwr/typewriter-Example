@@ -1,0 +1,13 @@
+{
+    "generate" : "AppModel",
+    "inherit" : "TypewriterBaseModel",
+    "implement" : ["Error"],
+    "memberVariable" : {
+        "producer" : {
+            "type" : "String",
+            "rewrittenName" : "company",
+            "nullable" : "optional"
+        },
+        "type" : {"type" : "String"}
+    }
+}

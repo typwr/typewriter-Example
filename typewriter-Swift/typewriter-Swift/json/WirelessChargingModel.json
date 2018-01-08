@@ -1,0 +1,17 @@
+{
+    "generate" : "WirelessChargingModel",
+    "inherit" : "TypewriterBaseModel",
+    "implement" : ["Error"],
+    "options" : ["constructOnly"],
+    "memberVariable" : {
+        "length" : {
+            "type" : "String",
+            "rewrittenName" : "cableLength"
+        },
+        "manufacturerNumber" : {
+            "type" : "String",
+            "flatten" : "equipment.info"
+        },
+        "powerSource" : {"type" : "String"}
+    }
+}

@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAA517220039E220025E498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA517120039E220025E498 /* AppDelegate.swift */; };
+		DCAA517420039E220025E498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA517320039E220025E498 /* ViewController.swift */; };
+		DCAA517720039E220025E498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAA517520039E220025E498 /* Main.storyboard */; };
+		DCAA517920039E220025E498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAA517820039E220025E498 /* Assets.xcassets */; };
+		DCAA517C20039E220025E498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAA517A20039E220025E498 /* LaunchScreen.storyboard */; };
+		DCAA51EF2003A3950025E498 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA518420039E9B0025E498 /* AppModel.swift */; };
+		DCAA51F02003A3950025E498 /* ConstantDecl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA518520039E9B0025E498 /* ConstantDecl.swift */; };
+		DCAA51F12003A3950025E498 /* HeadPhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA518620039E9B0025E498 /* HeadPhoneModel.swift */; };
+		DCAA51F22003A3950025E498 /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA518720039E9B0025E498 /* PhoneModel.swift */; };
+		DCAA51F32003A3950025E498 /* TypewriterBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA518820039E9B0025E498 /* TypewriterBaseModel.swift */; };
+		DCAA51F42003A3950025E498 /* WirelessChargingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA518920039E9B0025E498 /* WirelessChargingModel.swift */; };
+		DCAA51F52003A3990025E498 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA519120039E9B0025E498 /* Test.swift */; };
+		DCAA51F62003A39E0025E498 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = DCAA519020039E9B0025E498 /* test.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCAA516E20039E220025E498 /* typewriter-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "typewriter-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAA517120039E220025E498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCAA517320039E220025E498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCAA517620039E220025E498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAA517820039E220025E498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCAA517B20039E220025E498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCAA517D20039E220025E498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAA518420039E9B0025E498 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		DCAA518520039E9B0025E498 /* ConstantDecl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantDecl.swift; sourceTree = "<group>"; };
+		DCAA518620039E9B0025E498 /* HeadPhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadPhoneModel.swift; sourceTree = "<group>"; };
+		DCAA518720039E9B0025E498 /* PhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneModel.swift; sourceTree = "<group>"; };
+		DCAA518820039E9B0025E498 /* TypewriterBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterBaseModel.swift; sourceTree = "<group>"; };
+		DCAA518920039E9B0025E498 /* WirelessChargingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirelessChargingModel.swift; sourceTree = "<group>"; };
+		DCAA518B20039E9B0025E498 /* AppModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AppModel.json; sourceTree = "<group>"; };
+		DCAA518C20039E9B0025E498 /* HeadPhoneModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HeadPhoneModel.json; sourceTree = "<group>"; };
+		DCAA518D20039E9B0025E498 /* PhoneModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PhoneModel.json; sourceTree = "<group>"; };
+		DCAA518E20039E9B0025E498 /* WirelessChargingModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WirelessChargingModel.json; sourceTree = "<group>"; };
+		DCAA519020039E9B0025E498 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		DCAA519120039E9B0025E498 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAA516B20039E220025E498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAA516520039E220025E498 = {
+			isa = PBXGroup;
+			children = (
+				DCAA517020039E220025E498 /* typewriter-Swift */,
+				DCAA516F20039E220025E498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAA516F20039E220025E498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA516E20039E220025E498 /* typewriter-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAA517020039E220025E498 /* typewriter-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA518A20039E9B0025E498 /* json */,
+				DCAA518320039E9B0025E498 /* model */,
+				DCAA518F20039E9B0025E498 /* test */,
+				DCAA517120039E220025E498 /* AppDelegate.swift */,
+				DCAA517320039E220025E498 /* ViewController.swift */,
+				DCAA517520039E220025E498 /* Main.storyboard */,
+				DCAA517820039E220025E498 /* Assets.xcassets */,
+				DCAA517A20039E220025E498 /* LaunchScreen.storyboard */,
+				DCAA517D20039E220025E498 /* Info.plist */,
+			);
+			path = "typewriter-Swift";
+			sourceTree = "<group>";
+		};
+		DCAA518320039E9B0025E498 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA518420039E9B0025E498 /* AppModel.swift */,
+				DCAA518520039E9B0025E498 /* ConstantDecl.swift */,
+				DCAA518620039E9B0025E498 /* HeadPhoneModel.swift */,
+				DCAA518720039E9B0025E498 /* PhoneModel.swift */,
+				DCAA518820039E9B0025E498 /* TypewriterBaseModel.swift */,
+				DCAA518920039E9B0025E498 /* WirelessChargingModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DCAA518A20039E9B0025E498 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA518B20039E9B0025E498 /* AppModel.json */,
+				DCAA518C20039E9B0025E498 /* HeadPhoneModel.json */,
+				DCAA518D20039E9B0025E498 /* PhoneModel.json */,
+				DCAA518E20039E9B0025E498 /* WirelessChargingModel.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		DCAA518F20039E9B0025E498 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA519020039E9B0025E498 /* test.json */,
+				DCAA519120039E9B0025E498 /* Test.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAA516D20039E220025E498 /* typewriter-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAA518020039E220025E498 /* Build configuration list for PBXNativeTarget "typewriter-Swift" */;
+			buildPhases = (
+				DCAA516A20039E220025E498 /* Sources */,
+				DCAA516B20039E220025E498 /* Frameworks */,
+				DCAA516C20039E220025E498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "typewriter-Swift";
+			productName = "typewriter-Swift";
+			productReference = DCAA516E20039E220025E498 /* typewriter-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAA516620039E220025E498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = typewriter;
+				TargetAttributes = {
+					DCAA516D20039E220025E498 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCAA516920039E220025E498 /* Build configuration list for PBXProject "typewriter-Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAA516520039E220025E498;
+			productRefGroup = DCAA516F20039E220025E498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAA516D20039E220025E498 /* typewriter-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAA516C20039E220025E498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAA517C20039E220025E498 /* LaunchScreen.storyboard in Resources */,
+				DCAA517920039E220025E498 /* Assets.xcassets in Resources */,
+				DCAA517720039E220025E498 /* Main.storyboard in Resources */,
+				DCAA51F62003A39E0025E498 /* test.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAA516A20039E220025E498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAA517420039E220025E498 /* ViewController.swift in Sources */,
+				DCAA517220039E220025E498 /* AppDelegate.swift in Sources */,
+				DCAA51EF2003A3950025E498 /* AppModel.swift in Sources */,
+				DCAA51F02003A3950025E498 /* ConstantDecl.swift in Sources */,
+				DCAA51F12003A3950025E498 /* HeadPhoneModel.swift in Sources */,
+				DCAA51F22003A3950025E498 /* PhoneModel.swift in Sources */,
+				DCAA51F32003A3950025E498 /* TypewriterBaseModel.swift in Sources */,
+				DCAA51F42003A3950025E498 /* WirelessChargingModel.swift in Sources */,
+				DCAA51F52003A3990025E498 /* Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCAA517520039E220025E498 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAA517620039E220025E498 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAA517A20039E220025E498 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAA517B20039E220025E498 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAA517E20039E220025E498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCAA517F20039E220025E498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAA518120039E220025E498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "typewriter-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typewriter.typewriter-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCAA518220039E220025E498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "typewriter-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typewriter.typewriter-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAA516920039E220025E498 /* Build configuration list for PBXProject "typewriter-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAA517E20039E220025E498 /* Debug */,
+				DCAA517F20039E220025E498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAA518020039E220025E498 /* Build configuration list for PBXNativeTarget "typewriter-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAA518120039E220025E498 /* Debug */,
+				DCAA518220039E220025E498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCAA516620039E220025E498 /* Project object */;
+}

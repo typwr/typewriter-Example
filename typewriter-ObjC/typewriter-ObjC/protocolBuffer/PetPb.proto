@@ -1,0 +1,9 @@
+syntax = "proto3";
+option optimize_for = CODE_SIZE;
+
+message PetPb {
+  bool success = 1;
+  string name = 2;
+  string limbs = 3;
+  string color = 4;
+}

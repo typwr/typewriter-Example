@@ -1,0 +1,17 @@
+//
+//  typewriter-ObjC-PrefixHeader.pch
+//  typewriter-ObjC
+//
+//  Created by mrriddler on 2017/12/25.
+//  Copyright © 2017年 typewriter. All rights reserved.
+//
+
+#ifndef typewriter_ObjC_PrefixHeader_pch
+#define typewriter_ObjC_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "ConstantDecl.h"
+
+#endif /* typewriter_ObjC_PrefixHeader_pch */

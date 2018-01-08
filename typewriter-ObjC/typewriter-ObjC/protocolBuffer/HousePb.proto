@@ -1,0 +1,8 @@
+syntax = "proto3";
+option optimize_for = CODE_SIZE;
+
+message HousePb {
+  uint32 area = 1;
+  bool isSchoolDistrict = 2;
+  string location = 3;
+}

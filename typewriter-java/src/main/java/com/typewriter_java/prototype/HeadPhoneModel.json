@@ -1,0 +1,25 @@
+{
+    "generate" : "HeadPhoneModel",
+    "inherit" : "TypewriterBaseModel",
+    "implement" : ["Serializable"],
+    "options" : ["unidirectionDataflow"],
+    "memberVariable" : {
+        "brand" : {
+            "type" : "HeadPhoneBrand",
+            "rewrittenType" : "String"
+        },
+        "color" : {
+            "type" : "String",
+            "nullable" : "optional"
+        },
+        "battery" : {
+            "type" : "UInt32",
+            "rewrittenType" : "String"
+        },
+        "price" : {
+            "type" : "UInt64",
+            "nullable" : "optional",
+            "rewrittenType" : "String"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "generate" : "AppModel",
+    "inherit" : "TypewriterBaseModel",
+    "implement" : ["Serializable"],
+    "memberVariable" : {
+        "producer" : {
+            "type" : "String",
+            "rewrittenName" : "company",
+            "nullable" : "optional",
+            "annotation" : "@JSONField(name = \"company\")"
+        },
+        "type" : {"type" : "String"}
+    }
+}

@@ -1,0 +1,15 @@
+PODS:
+  - Protobuf (3.2.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Protobuf
+  - YYModel
+
+SPEC CHECKSUMS:
+  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 0d9643c22bf7abcff0c1db5f13b1b92151af01c4
+
+COCOAPODS: 1.2.0.beta.1

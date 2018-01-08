@@ -1,0 +1,22 @@
+syntax = "proto3";
+option optimize_for = CODE_SIZE;
+
+import "HousePb.proto";
+import "PetPb.proto";
+import "ClothesPb.proto";
+
+message UserPb {
+  string resultMessage = 1;
+  string resultCode = 2;
+  bool success = 3;
+  string userName = 4;
+  string favouriteSport = 5;
+  string favouriteMovie = 6;
+  bool hasMarried = 7;
+  string educationEnum = 8;
+  uint32 age = 9;
+  sint32 psychologicalAge = 10;
+  PetPb pet = 11;
+  repeated HousePb ownHouses = 12;
+  map<string, ClothesPb> wardrobes = 13;
+}

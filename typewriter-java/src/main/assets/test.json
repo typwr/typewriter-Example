@@ -1,0 +1,44 @@
+{
+  "equipment" : {
+    "info" : {
+      "phoneBrand" : "1"
+    }
+  },
+  "price" : "9688",
+  "accessory" : {
+    "charger" : {
+      "cableLength" : "1mm",
+      "equipment" : {
+        "info" : {
+          "manufacturerNumber" : "F18GGKI8Q5OO"
+        }
+      },
+      "powerSource" : "electricity"
+    },
+    "headPhone" : [{
+      "brand" : "1",
+      "color" : "blue",
+      "battery" : "5",
+      "price" : "1988"
+    }, {
+      "brand" : "0",
+      "color" : "red",
+      "battery" : "8",
+      "price" : "1488"
+    }]
+  },
+  "apps" : {
+    "wechat" : {
+      "company" : "tencent",
+      "type" : "instant messaging"
+    },
+    "taobao" : {
+      "company" : "alibaba",
+      "type" : "shopping"
+    },
+    "baiduBrowser" : {
+      "company" : "baidu",
+      "type" : "browser"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "generate" : "PhoneModel",
+    "inherit" : "TypewriterBaseModel",
+    "implement" : ["Serializable"],
+    "options" : ["immutable"],
+    "memberVariable" : {
+        "brand" : {
+            "type" : "PhoneBrand",
+            "rewrittenType" : "String",
+            "rewrittenName" : "phoneBrand",
+            "flatten" : "equipment.info"
+        },
+        "price" : {"type" : "String"},
+        "charger" : {
+            "type" : "$ref(WirelessChargingModel.json)",
+            "flatten" : "accessory"
+        },
+        "headPhone" : {
+            "type" : "Array<$ref(HeadPhoneModel.json)>",
+            "flatten" : "accessory"
+        },
+        "apps" : {"type" : "Map<String, $ref(AppModel.json)>"}
+    }
+}
